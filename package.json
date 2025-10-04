@@ -28,12 +28,12 @@
   "author": "BubbleUI",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daniel-dada/bubbleui-core.git"
+    "url": "git+https://github.com/michael-jordan-coder/bubbleui-core.git"
   },
   "bugs": {
-    "url": "https://github.com/daniel-dada/bubbleui-core/issues"
+    "url": "https://github.com/michael-jordan-coder/bubbleui-core/issues"
   },
-  "homepage": "https://github.com/daniel-dada/bubbleui-core#readme",
+  "homepage": "https://github.com/michael-jordan-coder/bubbleui-core#readme",
   "dependencies": {
     "@daniel-dada/bubbleui-core": "^0.1.0"
   }
