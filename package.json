@@ -34,6 +34,13 @@
     "url": "https://github.com/michael-jordan-coder/bubbleui-core/issues"
   },
   "homepage": "https://github.com/michael-jordan-coder/bubbleui-core#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/daniel-dada"
+  },
   "dependencies": {
     "@daniel-dada/bubbleui-core": "^0.1.0"
   }

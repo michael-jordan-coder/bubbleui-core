@@ -1,6 +1,12 @@
 # bubbleui-core
 **Make your UI breathe.** A tiny Web Component that turns rigid breakpoints into fluid, physics‑lite balance.
 
+[![npm version](https://badge.fury.io/js/%40daniel-dada%2Fbubbleui-core.svg)](https://badge.fury.io/js/%40daniel-dada%2Fbubbleui-core)
+[![npm downloads](https://img.shields.io/npm/dm/@daniel-dada/bubbleui-core)](https://www.npmjs.com/package/@daniel-dada/bubbleui-core)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
+[![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero-green.svg)](package.json)
+
 ## Install
 ```bash
 npm i bubbleui-core
