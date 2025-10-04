@@ -1,6 +1,6 @@
 {
   "name": "@daniel-dada/bubbleui-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fluid, physics-lite responsive layout via <bubble-frame> Web Component.",
   "keywords": [
     "responsive",
