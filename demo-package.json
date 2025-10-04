@@ -1,0 +1,24 @@
+{
+  "name": "bubbleui-core-demo",
+  "version": "1.0.0",
+  "description": "Demo application showcasing @daniel-dada/bubbleui-core responsive layout capabilities",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve ."
+  },
+  "dependencies": {
+    "@daniel-dada/bubbleui-core": "^0.1.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "keywords": [
+    "demo",
+    "responsive",
+    "bubbleui",
+    "web-components"
+  ],
+  "author": "Daniel Dada",
+  "license": "MIT"
+}

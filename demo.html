@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BubbleUI Core Demo - Responsive Interface</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="header">
+            <bubble-frame class="header-content" comfort="860" k="0.65">
+                <h1 class="logo">BubbleUI</h1>
+                <nav class="nav">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#demo" class="nav-link">Demo</a>
+                    <a href="#docs" class="nav-link">Docs</a>
+                </nav>
+                <button class="cta-button">Get Started</button>
+            </bubble-frame>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <bubble-frame class="hero-layout" comfort="860" k="0.65">
+                <div class="hero-content">
+                    <h2 class="hero-title">Fluid, Physics-Lite Responsive Layout</h2>
+                    <p class="hero-description">
+                        Experience responsive design that flows naturally with physics-inspired animations. 
+                        Built with modern web components for seamless integration.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="primary-button">Install Now</button>
+                        <button class="secondary-button">View Examples</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <bubble-frame class="demo-grid" comfort="300" k="0.8">
+                        <div class="grid-item item-1"></div>
+                        <div class="grid-item item-2"></div>
+                        <div class="grid-item item-3"></div>
+                        <div class="grid-item item-4"></div>
+                        <div class="grid-item item-5"></div>
+                        <div class="grid-item item-6"></div>
+                    </bubble-frame>
+                </div>
+            </bubble-frame>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <bubble-frame class="features-content" comfort="860" k="0.65">
+                <h3 class="section-title">Key Features</h3>
+                <bubble-frame class="features-grid" comfort="600" k="0.7">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h4 class="feature-title">Lightning Fast</h4>
+                        <p class="feature-description">Optimized performance with minimal overhead</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h4 class="feature-title">Mobile First</h4>
+                        <p class="feature-description">Responsive design that works on all devices</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h4 class="feature-title">Customizable</h4>
+                        <p class="feature-description">Easy to customize and integrate</p>
+                    </div>
+                </bubble-frame>
+            </bubble-frame>
+        </section>
+
+        <!-- Interactive Demo Section -->
+        <section class="interactive-demo" id="demo">
+            <bubble-frame class="demo-content" comfort="860" k="0.65">
+                <h3 class="section-title">Interactive Demo</h3>
+                <p class="demo-description">
+                    Resize your browser window to see the responsive behavior in action.
+                </p>
+                
+                <!-- BubbleUI Core Implementation -->
+                <bubble-frame class="bubble-container" comfort="800" k="0.6">
+                    <bubble-frame class="responsive-layout" comfort="500" k="0.8">
+                        <div class="demo-card">
+                            <h4>Card 1</h4>
+                            <p>This card adapts to different screen sizes using BubbleUI Core.</p>
+                        </div>
+                        <div class="demo-card">
+                            <h4>Card 2</h4>
+                            <p>Fluid layout that responds naturally to container changes.</p>
+                        </div>
+                        <div class="demo-card">
+                            <h4>Card 3</h4>
+                            <p>Physics-inspired animations for smooth transitions.</p>
+                        </div>
+                        <div class="demo-card">
+                            <h4>Card 4</h4>
+                            <p>Modern web component architecture.</p>
+                        </div>
+                    </bubble-frame>
+                </bubble-frame>
+
+                <bubble-frame class="demo-controls" comfort="600" k="0.7">
+                    <button class="control-button" onclick="toggleLayout()">Toggle Layout</button>
+                    <button class="control-button" onclick="resizeContainer()">Resize Container</button>
+                    <button class="control-button" onclick="addCard()">Add Card</button>
+                </bubble-frame>
+            </bubble-frame>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <bubble-frame class="footer-content" comfort="860" k="0.65">
+                <p>&copy; 2024 BubbleUI Core. Built with modern web standards.</p>
+                <div class="footer-links">
+                    <a href="https://npmjs.com/package/@daniel-dada/bubbleui-core" target="_blank">NPM Package</a>
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Documentation</a>
+                </div>
+            </bubble-frame>
+        </footer>
+    </div>
+
+    <script type="module">
+        import '@daniel-dada/bubbleui-core';
+    </script>
+    <script type="module" src="demo.js"></script>
+</body>
+</html>

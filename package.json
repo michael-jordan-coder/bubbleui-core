@@ -1,0 +1,40 @@
+{
+  "name": "@daniel-dada/bubbleui-core",
+  "version": "0.1.0",
+  "description": "Fluid, physics-lite responsive layout via <bubble-frame> Web Component.",
+  "keywords": [
+    "responsive",
+    "layout",
+    "web-components",
+    "ui",
+    "design-systems",
+    "fluid",
+    "physics"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/bubble-frame.js"
+    }
+  },
+  "module": "./dist/bubble-frame.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist/"
+  ],
+  "author": "BubbleUI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-dada/bubbleui-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daniel-dada/bubbleui-core/issues"
+  },
+  "homepage": "https://github.com/daniel-dada/bubbleui-core#readme",
+  "dependencies": {
+    "@daniel-dada/bubbleui-core": "^0.1.0"
+  }
+}
